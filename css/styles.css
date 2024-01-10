@@ -1,0 +1,169 @@
+body {
+font-family:"Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+}
+ul {
+    list-style-type: none;
+}
+/*#region header*/
+.logo_site {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo_span {
+    color: #2E2F42;
+}
+.logo_link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+.logo_link:focus,
+.logo_link:hover,
+.logo_link:active {
+    color: #404BBF;
+}
+.logo_address {
+    color:#434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+.logo_address:focus,
+.logo_address:hover {
+    color: #404BBF;
+}
+.logo_contact {
+    font-style: normal;
+}
+/*#endregion*/
+/*#region main page*/
+.main_page {
+    background-color: #2E2F42;
+}
+.page_title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.buttons {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+.buttons:focus,
+.buttons:hover {
+    background-color: #404BBF;
+}
+/*#endregion*/
+/*#region features*/
+.features_title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.features_category {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.features_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.features_section {
+    background-color: #FFFFFF;
+}
+/*#endregion*/
+/*#region team leaders*/
+.team_title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.team_leaders_name {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.team_leaders_profession {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.team_leaders_section {
+    background-color: #F4F4FD;
+}
+.team_leaders_link {
+    background-color: #FFFFFF;
+}
+/*#endregion*/
+/*#region portfolio*/
+.portfolio_title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+.portfolio_card {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.portfolio_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+/*#endregion*/
+/*#region footer*/
+.lowland {
+    background-color: #2E2F42;
+}
+.logo_footer {
+    color: #F4F4FD;
+}
+.text_footer {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}/*#endregion*/

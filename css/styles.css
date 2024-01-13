@@ -28,7 +28,8 @@ img {
 }
 /*#region header*/
 .top_line {
-    display: flex;  
+    display: flex; 
+    border-bottom: 1px solid #E7E9FC;
 }
 .logo_site {
     color: #4D5AE5;
@@ -40,14 +41,14 @@ img {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
-    padding-right: 76px;
+    margin-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 .logo_address_container {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #E7E9FC;
+    
 }
 .logo_list {
     display: flex;
@@ -100,6 +101,7 @@ img {
 .main_page {
     background-color: #2E2F42;
     display: block;
+    padding: 188px 0;
 }
 .main_page_container {
     display: block;    
@@ -131,6 +133,7 @@ img {
     margin: 0 auto;
     gap: 10px;
     border-radius: 4px;
+    border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 }
@@ -161,9 +164,8 @@ img {
     text-align: center;
     text-transform: capitalize;
 }
-.features_category_container {
-    display: flex;
-}
+    
+
 .features_list {
     display: flex;
     gap: 24px; 
@@ -174,16 +176,16 @@ img {
     align-items: flex-start;
     width: 264px;
     gap: 8px; 
-}
-.features_list .features_item {
     width: calc((100% - 72px) / 4);
 }
+
 .features_category {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 .features_text {
     font-size: 16px;

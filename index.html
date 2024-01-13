@@ -14,9 +14,10 @@
   <body>
     <header class="top_line">
       <!--Logo Navigation-->
+      <div class="logo_address_container container">
       <nav class="logo_navigation">
         <a class="logo_site" href="./index.html">Web<span class="logo_span">Studio</span></a>
-        <ul>
+        <ul class="logo_list">
           <li><a class="logo_link" href="./index.html">Studio</a></li>
           <li><a class="logo_link" href="">Portfolio</a></li>
           <li><a class="logo_link" href="">Contacts</a></li>
@@ -24,44 +25,49 @@
       </nav>
       <!--Address-->
       <address class="logo_contact">
-        <ul>
+        <ul class="logo_list_address">
           <li><a class="logo_address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a class="logo_address" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+      </div>
     </header>
     <main>
       <!--Header1 button-->
-      <section class="main_page">
+      <section class="main_page section">
+        <div class="main_page_container container"> 
         <h1 class="page_title">Effective Solutions <br> for Your Business</h1>
         <button class="buttons" type="button">Order Service</button>
+        </div>
       </section>
       <!--Features-->
-      <section class="features_section">
-        <h2 class="features_title">Features</h2>
-        <ul>
-          <li>
+      <section class="features_section section">
+        <div class="features_container container"> 
+        <h2 class="features_title visually-hidden">Features</h2>
+        <div class="features_category_container"> 
+        <ul class="features_list">
+          <li class="features_item">
             <h3 class="features_category">Strategy</h3>
             <p class="features_text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="features_item">
             <h3 class="features_category">Punctuality</h3>
             <p class="features_text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="features_item">
             <h3 class="features_category">Diligence</h3>
             <p class="features_text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="features_item">
             <h3 class="features_category">Technologies</h3>
             <p class="features_text">
               Design practice focused on digital experiences. We bring forth a
@@ -69,11 +75,15 @@
             </p>
           </li>
         </ul>
+        </div>
+        </div>
       </section>
-      <section class="team_leaders_section">
+      <section class="team_leaders_section section">
         <!--Team Leaders-->
+        <div class="team_container container"> 
         <h2 class="team_title">Our Team</h2>
-        <ul>
+        <div class="team_leaders_containre"> 
+        <ul class="team_leaders_list">
           <li class="team_leaders_link">
             <img
               src="./images/mark.jpg"
@@ -81,8 +91,10 @@
               width="264"
               height="260"
             >
+            <div class="team_leaders_info"> 
             <h3 class="team_leaders_name">Mark Guerrero</h3>
             <p class="team_leaders_profession">Product Designer</p>
+            </div>
           </li>
           <li class="team_leaders_link">
             <img
@@ -91,8 +103,10 @@
               width="264"
               height="260"
             >
+            <div class="team_leaders_info">
             <h3 class="team_leaders_name">Tom Ford</h3>
             <p class="team_leaders_profession">Frontend Developer</p>
+            </div>
           </li>
           <li class="team_leaders_link">
             <img
@@ -101,8 +115,10 @@
               width="264"
               height="260"
             >
+            <div class="team_leaders_info">
             <h3 class="team_leaders_name">Camila Garcia</h3>
             <p class="team_leaders_profession">Marketing</p>
+            </div>
           </li>
           <li class="team_leaders_link">
             <img
@@ -111,53 +127,75 @@
               width="264"
               height="260"
             >
+            <div class="team_leaders_info">
             <h3 class="team_leaders_name">Daniel Wilson</h3>
             <p class="team_leaders_profession">UI Designer</p>
+            </div>
           </li>
         </ul>
+        </div>
+        </div>
       </section>
-      <section>
+      <section class="section">
         <!--Portfolio-->
+        <div class="portfolio_container container"> 
         <h2 class="portfolio_title">Our Portfolio</h2>
-        <ul>
-          <li>
+        <div class="portfolio_card_container"> 
+        <ul class="portfolio_list">
+          <li class="portfolio_item">
             <img src="./images/portfolio/banking-app.jpg" alt="Banking App" width="360" height="300">
+            <div class="portfolio_text_container"> 
             <h3 class="portfolio_card">Banking App</h3>
             <p class="portfolio_text">App</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio_item">
             <img src="./images/portfolio/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
+            <div class="portfolio_text_container"> 
             <h3 class="portfolio_card">Cashless Payment</h3>
             <p class="portfolio_text">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio_item">
             <img src="./images/portfolio/meditation-app.jpg" alt="Meditation App" width="360" height="300">
+            <div class="portfolio_text_container"> 
             <h3 class="portfolio_card">Meditation App</h3>
             <p class="portfolio_text">App</p>
-          </li>
-          <li>
+            </div>
+          </li>        
+          <li class="portfolio_item">
             <img src="./images/portfolio/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
+            <div class="portfolio_text_container"> 
             <h3 class="portfolio_card">Taxi Service</h3>
             <p class="portfolio_text">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio_item">
             <img src="./images/portfolio/screen-illustrations.jpg" alt="Screen Illustrations" width="360" height="300">
+            <div class="portfolio_text_container"> 
             <h3 class="portfolio_card">Screen Illustrations</h3>
             <p class="portfolio_text">Design</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio_item">
             <img src="./images/portfolio/online-courses.jpg" alt="Online Courses" width="360" height="300">
+            <div class="portfolio_text_container"> 
             <h3 class="portfolio_card">Online Courses</h3>
             <p class="portfolio_text">Marketing</p>
+            </div>
           </li>
         </ul>
+        </div>
+        </div>
       </section>
     </main>
     <footer class="lowland">
-      <a class="logo_site" href="./index.html">Web<span class="logo_footer">Studio</span></a>
+      <div class="footer_container container"> 
+      <a class="logo_site_footer" href="./index.html">Web<span class="logo_footer">Studio</span></a>
       <p class="text_footer">
         Increase the flow of customers and sales for your business with digital marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>

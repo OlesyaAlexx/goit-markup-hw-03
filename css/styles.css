@@ -283,7 +283,6 @@ img {
     padding-bottom: 32px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
     flex-shrink: 0;
     width: calc((100% - 48px) / 3);
 }
